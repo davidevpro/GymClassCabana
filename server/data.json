@@ -1,0 +1,14 @@
+{
+  "classes": [
+    {
+      "id": 1,
+      "name": "Yoga",
+      "day": "Lunes",
+      "time": "18:00",
+      "availableSlots": 10
+    }
+  ],
+  "users": [
+    
+  ]
+}

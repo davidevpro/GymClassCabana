@@ -1,0 +1,26 @@
+{
+  "name": "gymclasscabana",
+  "version": "1.0.0",
+  "description": "## Descripción GymClassCabaña es una aplicación web para gestionar clases en un gimnasio. Permite a los usuarios ver horarios de clases, registrarse y realizar reservas.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davidevpro/GymClassCabana.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/davidevpro/GymClassCabana/issues"
+  },
+  "homepage": "https://github.com/davidevpro/GymClassCabana#readme",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "body-parser": "^1.20.3",
+    "express": "^4.21.2"
+  },
+  "devDependencies": {}
+}

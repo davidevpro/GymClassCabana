@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Tu Nombre">
+    <title>Mi Perfil - GymClassCabaña</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Estilos personalizados -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="bg-primary text-white p-3 text-center">
+        <h1>Bienvenido, <span id="user-name"></span>!</h1>
+        <p>Tu perfil en GymClassCabaña.</p>
+    </header>
+
+    <main class="container mt-4">
+        <!-- Sección de Clases Disponibles -->
+        <section id="classes-section">
+            <h2 class="mb-3">Clases Disponibles</h2>
+            <div id="classes-list" class="row"></div>
+        </section>
+
+        <!-- Sección de Taquillas -->
+        <section id="lockers-section">
+            <h2 class="mb-3">Gestión de Taquillas</h2>
+            <form id="locker-form">
+                <div class="mb-3">
+                    <label for="locker-type" class="form-label">Tipo de Taquilla:</label>
+                    <select id="locker-type" class="form-select">
+                        <option value="daily">Diaria</option>
+                        <option value="monthly">Mensual</option>
+                    </select>
+                </div>
+                <button type="submit" class="btn btn-secondary">Alquilar Taquilla</button>
+            </form>
+        </section>
+    </main>
+
+    <footer class="bg-primary text-white text-center p-3">
+        <p>&copy; 2023 GymClassCabaña</p>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
